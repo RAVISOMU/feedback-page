@@ -1,0 +1,118 @@
+.feedback-app-bg-container {
+  height: 100vh;
+  background-image: linear-gradient(to right, #ffeeee, #ffc0bb);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.feedback-app-bg-card {
+  background-color: #ffffff;
+  width: 80%;
+  padding: 20px;
+  border-radius: 15px;
+  text-align: center;
+}
+
+.feedback-app-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  .feedback-app-bg-card {
+    width: 60%;
+    padding: 32px;
+  }
+}
+
+.emoji-item {
+  margin-right: 32px;
+}
+
+@media screen and (min-width: 768px) {
+  .emoji-item {
+    margin-right: 54px;
+  }
+}
+
+.feedback-description {
+  font-family: 'Roboto';
+  color: #0f172a;
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+  .feedback-description {
+    font-size: 32px;
+  }
+}
+
+.button {
+  border-width: 0px;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+}
+
+.emoji {
+  height: 40px;
+  width: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .emoji {
+    height: 64px;
+    width: 64px;
+  }
+}
+
+.emoji-text {
+  font-family: 'Roboto';
+  color: #1e293b;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+@media screen and (min-width: 768px) {
+  .emoji-text {
+    font-size: 20px;
+  }
+}
+
+.love-emoji {
+  height: 42px;
+  width: 46px;
+}
+
+.greeting {
+  font-family: 'Roboto';
+  color: #0f172a;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.message {
+  font-family: 'Roboto';
+  color: #1e293b;
+  font-size: 14px;
+}
+
+@media screen and (min-width: 768px) {
+  .love-emoji {
+    height: 50px;
+    width: 56px;
+  }
+
+  .greeting {
+    font-size: 32px;
+  }
+
+  .message {
+    font-size: 22px;
+  }
+}
